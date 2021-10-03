@@ -8,7 +8,7 @@ const App = () => {
   const [firstCurrency, setFirstCurrency] = useState()
   const [secondCurrency, setSecondCurrency] = useState()
   const [exchangeRate, setExchangeRate] = useState()
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState()
   const [amountFromFirstCurrency, setAmountFromFirstCurrency] = useState(true)
   const [initialized, setInitialized] = useState(false)
 

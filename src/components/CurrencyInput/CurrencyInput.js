@@ -17,7 +17,7 @@ const CurrencyInput = (props) => {
   return (
     <>
       <fieldset className='CurrencyInputContainer'>
-        <input className='CurrencyInput' type='number' value={amount} onChange={onChangeAmount} />
+        <input className='CurrencyInput' type='number' value={amount} onChange={onChangeAmount} placeholder='0' />
         {/* <select value={selectedCurrency} onChange={onChangeCurrency}>
           {optionElements}
         </select> */}
