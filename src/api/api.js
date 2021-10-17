@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = "3fdb28eba3cca5b4d3dea82d"
+const API_KEY = "f076ae69a96cb8efc89f0556"
 
 const instance = axios.create({
   baseURL: 'https://v6.exchangerate-api.com/v6'
